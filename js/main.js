@@ -11,7 +11,7 @@ document.querySelector("#prazo").addEventListener("change", function () {
     const prazo = document.querySelector("#prazo").value
     document.querySelector("label[for=prazo]").innerHTML = `Prazo: ${prazo} semanas`
     atualizarPreco()
-})
+});
 function atualizarPreco() {
     const qtde = document.querySelector("#qtde").value
     const temJS = document.querySelector("#js").checked
